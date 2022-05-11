@@ -24,7 +24,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Maybe add an admin bar item that shows the current site ID.
-add_action( 'admin_bar_menu', __NAMESPACE__ . '\maybe_add_admin_bar_item' );
+add_action( 'admin_bar_menu', __NAMESPACE__ . '\maybe_add_admin_bar_item', 99 );
 
 /**
  * Maybe add an admin bar item that shows the current site ID.
