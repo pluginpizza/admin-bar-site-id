@@ -28,6 +28,11 @@ add_filter(
  */
 function prefix_admin_bar_site_id_capability( $capability ) {
 
+	/*
+	 * This example changes the capablity to 'edit_posts'. For an overview
+	 * of default capabilities, visit the Roles and Capabilities support
+	 * article: https://wordpress.org/support/article/roles-and-capabilities/
+	 */
 	return 'edit_posts';
 }
 ```
