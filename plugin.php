@@ -52,7 +52,7 @@ function maybe_add_admin_bar_item( $wp_admin_bar ) {
 	$current_blog_id = absint( get_current_blog_id() );
 
 	$args = array(
-		'id'    => 'functionsfile-admin-bar-site-id',
+		'id'    => 'pluginpizza-admin-bar-site-id',
 		'title' => sprintf(
 			/* translators: %d: current blog ID */
 			esc_html__( 'Site ID: %d', 'pluginpizza-admin-bar-site-id' ),
