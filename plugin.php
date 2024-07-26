@@ -8,7 +8,7 @@
  * Plugin Name:       Admin Bar Site ID
  * Plugin URI:        https://github.com/pluginpizza/admin-bar-site-id/
  * Text Domain:       pluginpizza-admin-bar-site-id
- * Version:           1.0.0
+ * Version:           2.0.0
  * Requires PHP:      5.3.0
  * Requires at least: 3.1.0
  * GitHub Plugin URI: pluginpizza/admin-bar-site-id
