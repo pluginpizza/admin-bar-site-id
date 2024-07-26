@@ -1,19 +1,19 @@
 <?php
 /**
- * Author URI:        https://functionsfile.com/
- * Author:            Functions File, Barry Ceelen
+ * Author URI:        https://plugin.pizza/
+ * Author:            Plugin Pizza, Barry Ceelen
  * Description:       Display the current site ID in the WordPress admin bar on multisite networks.
  * Domain Path:       /languages
  * License:           GPLv3+
  * Plugin Name:       Admin Bar Site ID
- * Plugin URI:        https://github.com/functionsfile/admin-bar-site-id/
- * Text Domain:       functionsfile-admin-bar-site-id
+ * Plugin URI:        https://github.com/pluginpizza/admin-bar-site-id/
+ * Text Domain:       pluginpizza-admin-bar-site-id
  * Version:           1.0.0
  * Requires PHP:      5.3.0
  * Requires at least: 3.1.0
- * GitHub Plugin URI: functionsfile/admin-bar-site-id
+ * GitHub Plugin URI: pluginpizza/admin-bar-site-id
  *
- * @package FunctionsFile\AdminBarSiteId
+ * @package PluginPizza\AdminBarSiteId
  */
 
 namespace PluginPizza\AdminBarSiteId;
