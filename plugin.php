@@ -44,7 +44,7 @@ function maybe_add_admin_bar_item( $wp_admin_bar ) {
 		 *
 		 * @param string $capability The capability required to add the admin bar menu item, default "manage_options".
 		 */
-		apply_filters( 'functions_file_admin_bar_site_id_capability', 'manage_options' )
+		apply_filters( 'pluginpizza_admin_bar_site_id_capability', 'manage_options' )
 	) ) {
 		return;
 	}
