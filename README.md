@@ -43,8 +43,8 @@ Admin Bar Site ID is hosted on the [WordPress plugin directory](https://wordpres
 
 1. Visit the Plugins page within your WordPress dashboard and select ‘Add New’
 1. Search for 'Admin Bar Site ID' and install the plugin
-1. Activate Bar Site ID from your Plugins page
+1. Activate Admin Bar Site ID from your Plugins page
 
 ### Composer
 
-Bar Site ID can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=admin-bar-site-id).
+Admin Bar Site ID can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=admin-bar-site-id).
