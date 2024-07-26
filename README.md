@@ -42,7 +42,7 @@ function prefix_admin_bar_site_id_capability( $capability ) {
 Admin Bar Site ID is hosted on the [WordPress plugin directory](https://wordpress.org/plugins/admin-bar-site-id/) and can be installed via the WordPress dashboard.
 
 1. Visit the Plugins page within your WordPress dashboard and select ‘Add New’
-1. Search for 'Bar Site ID' and install the plugin
+1. Search for 'Admin Bar Site ID' and install the plugin
 1. Activate Bar Site ID from your Plugins page
 
 ### Composer
