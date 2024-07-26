@@ -55,7 +55,7 @@ function maybe_add_admin_bar_item( $wp_admin_bar ) {
 		'id'    => 'functionsfile-admin-bar-site-id',
 		'title' => sprintf(
 			/* translators: %d: current blog ID */
-			esc_html__( 'Site ID: %d', 'functionsfile-admin-bar-site-id' ),
+			esc_html__( 'Site ID: %d', 'pluginpizza-admin-bar-site-id' ),
 			$current_blog_id
 		),
 	);
