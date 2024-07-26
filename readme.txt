@@ -55,12 +55,12 @@ function prefix_admin_bar_site_id_capability( $capability ) {
 
 == Changelog ==
 
-= 2.0 =
+= 2.0.0 =
 Release Date: July 26, 2024
 
 - Renamed the capability filter to pluginpizza_admin_bar_site_id_capability.
 
-= 1.0 =
+= 1.0.0 =
 Release Date: November 13, 2023
 
 - Initial release.
