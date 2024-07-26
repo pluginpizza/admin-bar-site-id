@@ -1,7 +1,7 @@
 <?php
 /**
  * Author URI:        https://plugin.pizza/
- * Author:            Plugin Pizza, Barry Ceelen
+ * Author:            Plugin Pizza
  * Description:       Display the current site ID in the WordPress admin bar on multisite networks.
  * Domain Path:       /languages
  * License:           GPLv3+
