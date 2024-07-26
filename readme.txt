@@ -1,10 +1,10 @@
 === Admin Bar Site ID ===
-Contributors: functionsfile, barryceelen
+Contributors: pluginpizza, barryceelen, functionsfile
 Tags: admin, multisite
 Requires at least: 4.6
-Tested up to: 6.4
+Tested up to: 6.6
 Requires PHP: 5.3
-Stable tag: 1.0.0
+Stable tag: 2.0.0
 License: GPLv3+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -16,7 +16,7 @@ Display the current site ID in the WordPress admin bar on multisite networks.
 
 ### Bug Reports
 
-Do you want to report a bug or suggest a feature for Admin Bar Site ID? Best to do so in the [Admin Bar Site ID repository on GitHub](https://github.com/functionsfile/admin-bar-site-id/).
+Do you want to report a bug or suggest a feature for Admin Bar Site ID? Best to do so in the [Admin Bar Site ID repository on GitHub](https://github.com/pluginpizza/admin-bar-site-id/).
 
 ## FAQ
 
@@ -26,12 +26,12 @@ The admin bar item is only added on [multisite](https://wordpress.org/support/ar
 
 ### Show the site ID to users other than Administrators
 
-A `functions_file_admin_bar_site_id_capability` [filter](https://developer.wordpress.org/plugins/hooks/filters/) exists that allows you to override the capability required to add the admin bar menu item.
+A `pluginpizza_admin_bar_site_id_capability` [filter](https://developer.wordpress.org/plugins/hooks/filters/) exists that allows you to override the capability required to add the admin bar menu item.
 
 ```
 // Change the admin bar site ID capability.
 add_filter(
-	'functions_file_admin_bar_site_id_capability',
+	'pluginpizza_admin_bar_site_id_capability',
 	'prefix_admin_bar_site_id_capability'
 );
 
@@ -52,3 +52,15 @@ function prefix_admin_bar_site_id_capability( $capability ) {
 	return 'edit_posts';
 }
 ```
+
+== Changelog ==
+
+= 2.0 =
+Release Date: July 26, 2024
+
+- Renamed the capability filter to pluginpizza_admin_bar_site_id_capability.
+
+= 1.0 =
+Release Date: November 13, 2023
+
+- Initial release.

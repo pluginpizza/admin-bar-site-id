@@ -10,12 +10,12 @@ The admin bar item is only added on [multisite](https://wordpress.org/support/ar
 
 ### Show the site ID to users other than Administrators
 
-A `functions_file_admin_bar_site_id_capability` [filter](https://developer.wordpress.org/plugins/hooks/filters/) exists that allows you to override the capability required to add the admin bar menu item.
+A `pluginpizza_admin_bar_site_id_capability` [filter](https://developer.wordpress.org/plugins/hooks/filters/) exists that allows you to override the capability required to add the admin bar menu item.
 
 ```
 // Change the admin bar site ID capability.
 add_filter(
-	'functions_file_admin_bar_site_id_capability',
+	'pluginpizza_admin_bar_site_id_capability',
 	'prefix_admin_bar_site_id_capability'
 );
 
@@ -36,3 +36,15 @@ function prefix_admin_bar_site_id_capability( $capability ) {
 	return 'edit_posts';
 }
 ```
+
+## Installation
+
+Admin Bar Site ID is hosted on the [WordPress plugin directory](https://wordpress.org/plugins/admin-bar-site-id/) and can be installed via the WordPress dashboard.
+
+1. Visit the Plugins page within your WordPress dashboard and select ‘Add New’
+1. Search for 'Bar Site ID' and install the plugin
+1. Activate Bar Site ID from your Plugins page
+
+### Composer
+
+Bar Site ID can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=admin-bar-site-id).
