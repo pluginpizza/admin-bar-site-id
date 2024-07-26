@@ -16,7 +16,7 @@
  * @package FunctionsFile\AdminBarSiteId
  */
 
-namespace FunctionsFile\AdminBarSiteId;
+namespace PluginPizza\AdminBarSiteId;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
