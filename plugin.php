@@ -3,7 +3,6 @@
  * Author URI:        https://plugin.pizza/
  * Author:            Plugin Pizza
  * Description:       Display the current site ID in the WordPress admin bar on multisite networks.
- * Domain Path:       /languages
  * License:           GPLv3+
  * Plugin Name:       Admin Bar Site ID
  * Plugin URI:        https://github.com/pluginpizza/admin-bar-site-id/
