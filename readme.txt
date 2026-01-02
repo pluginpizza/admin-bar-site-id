@@ -28,7 +28,7 @@ The admin bar item is only added on [multisite](https://wordpress.org/support/ar
 
 A `pluginpizza_admin_bar_site_id_capability` [filter](https://developer.wordpress.org/plugins/hooks/filters/) exists that allows you to override the capability required to add the admin bar menu item.
 
-```
+`
 // Change the admin bar site ID capability.
 add_filter(
 	'pluginpizza_admin_bar_site_id_capability',
@@ -51,7 +51,7 @@ function prefix_admin_bar_site_id_capability( $capability ) {
 	 */
 	return 'edit_posts';
 }
-```
+`
 
 == Changelog ==
 
