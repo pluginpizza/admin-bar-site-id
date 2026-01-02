@@ -6,7 +6,7 @@
  * License:           GPLv3+
  * Plugin Name:       Admin Bar Site ID
  * Plugin URI:        https://github.com/pluginpizza/admin-bar-site-id/
- * Text Domain:       pluginpizza-admin-bar-site-id
+ * Text Domain:       admin-bar-site-id
  * Version:           2.0.0
  * Requires PHP:      5.3.0
  * Requires at least: 3.1.0
@@ -54,7 +54,7 @@ function maybe_add_admin_bar_item( $wp_admin_bar ) {
 		'id'    => 'pluginpizza-admin-bar-site-id',
 		'title' => sprintf(
 			/* translators: %d: current blog ID */
-			esc_html__( 'Site ID: %d', 'pluginpizza-admin-bar-site-id' ),
+			esc_html__( 'Site ID: %d', 'admin-bar-site-id' ),
 			$current_blog_id
 		),
 	);
