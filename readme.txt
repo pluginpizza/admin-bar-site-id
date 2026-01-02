@@ -1,7 +1,7 @@
 === Admin Bar Site ID ===
 Contributors: pluginpizza, barryceelen, functionsfile
 Tags: admin, multisite
-Requires at least: 4.6
+Requires at least: 3.1
 Tested up to: 6.9
 Requires PHP: 5.3
 Stable tag: 2.0.0
