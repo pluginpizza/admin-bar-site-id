@@ -2,7 +2,7 @@
 Contributors: pluginpizza, barryceelen, functionsfile
 Tags: admin, multisite
 Requires at least: 3.1
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.3
 Stable tag: 2.0.0
 License: GPLv3+
