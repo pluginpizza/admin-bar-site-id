@@ -47,4 +47,6 @@ Admin Bar Site ID is hosted on the [WordPress plugin directory](https://wordpres
 
 ### Composer
 
-Admin Bar Site ID can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=admin-bar-site-id).
+Admin Bar Site ID can be added as a dependency to your project via the [wp packages composer repository](https://wp-packages.org/packages/wp-plugin/admin-bar-site-id).
+
+`composer require wp-plugin/admin-bar-site-id`
